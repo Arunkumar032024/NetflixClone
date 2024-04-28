@@ -7,6 +7,12 @@
         font-size: var(--font-lg);
     }
     /* End header section style */
+
+    /* footer section style */
+    footer .grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* End footer section style */
 }
 @media (max-width:592px) {
     /* header section style */
@@ -21,7 +27,11 @@
     /* End header section style */
 }
 @media (max-width:480px) {
-    
+    /* footer section style */
+    footer .grid{
+        grid-template-columns: 1fr;
+    }
+    /* End footer section style */    
 }
 @media (max-width:333px) {
     /* header section style */

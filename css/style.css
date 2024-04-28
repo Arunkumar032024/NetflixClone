@@ -54,8 +54,14 @@ input{
 input:focus{
     outline: 2px solid var(--white-color);
 }
-
-
+a{
+    text-decoration: none;
+    color: var(--light-white-color);
+    transition: all .3s ease;
+}
+a:hover{
+    text-decoration: underline;
+}
 /* header section style */
 header{
     width: 100%;
@@ -64,6 +70,7 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 10px;   
 }
 header nav {
     width: 100%;
@@ -130,3 +137,26 @@ header .header-content{
 
 /* End header section style */
 
+/* footer section style */
+footer{
+    background-color: var(--black-color);
+    padding: 4rem 2rem;
+    color: var(--light-white-color);
+}
+footer .grid{
+    margin: 10px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+footer select{
+    background-color: var(--light-black-color);
+    color: var(--light-white-color);
+    border: 1px solid var(--light-white-color);
+    outline: none;
+    padding: 5px 8px;
+    border-radius: 3px;
+    margin: 10px 0;
+}
+/* End footer section style */
