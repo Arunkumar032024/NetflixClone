@@ -137,6 +137,99 @@ header .header-content{
 
 /* End header section style */
 
+/* main section style */
+.body-section{
+    background-color: var(--black-color);
+    padding: 4rem 3rem;
+    color: var(--white-color);
+    margin-bottom: 10px;
+    display: flex;
+}
+.body-section img{
+    width: 100%;
+}
+.body-section .content{
+    width: 50%;
+    margin: auto;
+}
+.content h3{
+    font-size: var(--font-xl);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.content p{
+    font-size: var(--font-md);
+    font-weight: 600;
+}
+
+.mobile{
+    position: relative;
+}
+.download{
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    border: 1px solid var(--white-color);
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--light-black-color);
+}
+.download p span{
+    color: #00f;
+}
+.download img{
+    width: 50px;
+}
+
+.faq-section{
+    background-color: var(--black-color);
+    padding: 4rem 3rem;
+    color: var(--white-color);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.faq-section h3{
+    font-size: var(--font-xl);
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.faq-section .btn-1{
+    display:block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: var(--font-md);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--white-color);
+    cursor: pointer;
+}
+.faq-section p{
+    font-size: var(--font-md);
+    margin: 20px 0;
+}
+.faq-section div{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    max-width: 592px;
+    gap: 10px;
+}
+.faq-section .btn{
+    border-radius: 5px;
+    padding: 0 15px;
+    font-size: var(--font-md);
+}
+/* End main section style */
+
 /* footer section style */
 footer{
     background-color: var(--black-color);

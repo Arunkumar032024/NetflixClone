@@ -1,5 +1,16 @@
 @media (max-width:992px) {
-    
+    /* main section style */
+    .body-section{
+        flex-direction: column-reverse;
+    }
+    .body-section.reverse{
+        flex-direction: column;
+    }
+    .body-section .content{
+        width: 100%;
+        margin: 0;
+    }
+    /* End main section style */
 }
 @media (max-width:767px) {
     /* header section style */
@@ -16,17 +27,53 @@
 }
 @media (max-width:592px) {
     /* header section style */
-    header .header-content div{
+    header .header-content div,
+    .faq-section div{
         flex-direction: column;
         align-items: center;
     }
-    .header-content div .btn{
+    .header-content div .btn,
+    .faq-section div .btn{
         width: fit-content;
         min-height: 60px;
+    }
+    .faq-section {
+        padding: 2rem 1rem 6rem 1rem;
+    }
+    .faq-section .btn-1{
+        font-size: var(--font-sm);
+    }
+    .download{
+        bottom: 10px;
     }
     /* End header section style */
 }
 @media (max-width:480px) {
+    /* main section style */
+    .body-section{
+        padding: 2rem 1rem;
+    }
+    .body-section .content h3,
+    .faq-section h3{
+        font-size: var(--font-md);
+    }
+    .body-section .content p{
+        font-size: var(--font-sm);
+    }
+    .faq-section p{
+        font-size: var(--font-sm);
+    }
+    .download{
+        width: 70%;
+    }
+    .download img{
+        width: 30px;
+    }
+    .download p{
+        font-size: 10px;
+    }
+    /* End main section style */
+    
     /* footer section style */
     footer .grid{
         grid-template-columns: 1fr;
@@ -44,4 +91,11 @@
     }
 
     /* End header section style */
+
+    /* main section style */
+    .download{
+        padding: 5px;
+        width: 80%;
+    }
+    /* End main section style */
 }
